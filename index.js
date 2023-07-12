@@ -74,6 +74,16 @@ console.log(response)
 
 
 
+  numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+  const funcion = (numeros) => {
+    
+    for (let i = 0; i < numeros.length; i++){
+      if(i !== 5){
+        console.log(numeros[i])
+      }
+    }
+  }
 
+  console.log(funcion(numeros))
   
